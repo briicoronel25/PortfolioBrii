@@ -51,7 +51,7 @@
 <div class="bgimg-3 w3-display-container w3-opacity-min" id="design">
   <div class="w3-display-middle">
     <span class="w3-xxlarge w3-text-white w3-wide">DESIGN</span>
-   <a href="work.php" target="_blank"><button class="w3-button w3-display-middle w3-light-grey" style="margin-top:64px">LOAD MORE</button></a>
+   <a href="design.php" target="_blank"><button class="w3-button w3-display-middle w3-light-grey" style="margin-top:64px">LOAD MORE</button></a>
   </div>
 </div>
 
@@ -66,41 +66,30 @@
 <!-- CONTACT Container (Contact Section) -->
 <div class="w3-row w3-center w3-dark-grey w3-padding-16"></div>
 
+  <div class="bgimg-5 w3-display-container w3-opacity-min" id="contact">
+    <div>
+      <h3 class="w3-center">CONTACT ME</h3>
+   </div>
 
-<div class="bgimg-5 w3-display-container w3-opacity-min" id="contact">
-  <div>
-    <h3 class="w3-center">CONTACT ME</h3>
- </div>
+    <p class="w3-center"><em>I'd love your feedback!</em></p>
 
-
-
-  <p class="w3-center"><em>I'd love your feedback!</em></p>
-
-  <div class="w3-row w3-padding-32 w3-section">
-
-
-      <!--<div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> London On<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 1 519.123.4567<br>
-        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: myEmail@live.com<br>
-      </div>-->
-      <p>Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
-      <form action="/action_page.php" target="_blank">
-        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+    <div class="w3-row w3-section">
+        <p style="text-align: center;">Swing by for a cup of <i class="fa fa-coffee"></i>, or leave me a note:</p>
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
           </div>
-          <div class="w3-half">
-            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
-          </div>
-        </div>
-        <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-        <button class="w3-button w3-black w3-center w3-section" type="submit">
-          <i class="fa fa-paper-plane"></i> SEND MESSAGE
-        </button>
-      </form>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-center w3-section" type="submit">
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </form>
     </div>
-
   </div>
 </div>
 
